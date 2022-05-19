@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.winner {
+    color: green;
+}
+
+.loser {
+    color: red;
+}
+
+.main-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-content {
+    padding: 0 5px 0 5px;
+}
+
+.main-content img {
+    max-width: 1080px;
+    width: 100%;
+    max-height: 400px;
+    min-height: auto;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.p-text {
+    font-family: Open sans;
+    font-size: 16px;
+    margin-top: 25px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    height: 50px;
+    text-align: center;
+    width: 100%;
+    color: #fff;
+    font-weight: 600;
+}
+
+#p1Button:disabled,
+#p2Button:disabled,
+#resetButton:disabled {
+    cursor: default;
+}
+
+#scoreboard {
+    font-family: Open sans;
+}
+
+.scoreboard-text {
+    margin-bottom: 15px;
+    margin-top: -10px;
+    font-size: 20px;
+    font-family: Open sans;
+}
+
+#image-title {
+    text-align: center;
+    font-family: Open sans;
+    padding-bottom: 10px;
+    padding-top: 5px;
+    margin-top: -4px;
+    font-size: 20px;
+    font-weight: 600;
+    box-shadow: 0px 4px 8px rgba(128, 128, 128, 0.26);
+}
+
+#playto {
+    width: 46px;
+    height: 30px;
+    border-radius: 14px;
+    padding: 4px;
+    font-family: Open sans;
+}
+
+#buttons {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+#p1Button {
+    background-color: #0ba55d;
+}
+
+#p2Button {
+    background-color: #5da1d4;
+}
+
+#resetButton {
+    background-color: #ee3e5e;
+}
+
+#p1Button:disabled {
+    background-color: #0ba55d71;
+}
+
+#p2Button:disabled {
+    background-color: #5da0d470;
+}
